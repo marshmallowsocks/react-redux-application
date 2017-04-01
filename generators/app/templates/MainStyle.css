@@ -1,0 +1,95 @@
+@font-face { 
+  font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Light.svg') format('svg'); 
+  font-weight: 200; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Regular.svg') format('svg'); 
+  font-weight: 500; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'National'; src: url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.eot'); src: local(':)'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.woff') format('woff'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.ttf') format('truetype'), url('//web-app.usc.edu/assets/fonts/NationalWeb-Bold.svg') format('svg'); 
+  font-weight: 800; 
+  font-style: normal; 
+}
+
+body {
+  font-family: National, sans-serif;
+  font-size: 18px;
+}
+
+.home {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #990000;
+}
+
+.navbar .nav > li > a {
+  color: #ffffff;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:active,
+.navbar .nav > li > a:focus,
+.navbar .nav .open > a,
+.navbar .nav .open > a:hover,
+.navbar .nav .open > a:focus,
+.navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+
+.navbar .sidebar-toggle {
+  color: #ffffff;
+}
+
+.navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .sidebar-toggle {
+  color: #fff;
+}
+
+.navbar .sidebar-toggle:hover {
+  background-color: #a31919;
+}
+
+@media (max-width: 767px) {
+   .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+   .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+   .navbar .dropdown-menu li a:hover {
+    background: #a31919;
+  }
+}
+
+.logo {
+  background-color: #990000;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.logo:hover {
+  background-color: #a31919;
+}
+
+.jumbotron {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.img-padding-top-right {
+  padding-top: 5px;
+  padding-right: 5px;
+}
