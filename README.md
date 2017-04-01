@@ -1,19 +1,19 @@
-# generator-gradschool-application [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Generates boilerplates for react-flux gradschool applications
+# generator-react-redux-application
+> Generates boilerplates for react-redux applications
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-gradschool-application using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-react-redux-application using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-gradschool-application
+npm install -g generator-react-redux-application
 ```
 
 Then generate your new project:
 
 ```bash
-yo gradschool-application
+yo react-redux-application
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo gradschool-application
  © [Srivathsan Jayaraman](-)
 
 
-[npm-image]: https://badge.fury.io/js/generator-gradschool-application.svg
-[npm-url]: https://npmjs.org/package/generator-gradschool-application
-[travis-image]: https://travis-ci.org/-/generator-gradschool-application.svg?branch=master
-[travis-url]: https://travis-ci.org/-/generator-gradschool-application
-[daviddm-image]: https://david-dm.org/-/generator-gradschool-application.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/-/generator-gradschool-application
+[npm-image]: https://badge.fury.io/js/generator-react-redux-application.svg
+[npm-url]: https://npmjs.org/package/generator-react-redux-application
+[travis-image]: https://travis-ci.org/-/generator-react-redux-application.svg?branch=master
+[travis-url]: https://travis-ci.org/-/generator-react-redux-application
+[daviddm-image]: https://david-dm.org/-/generator-react-redux-application.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/-/generator-react-redux-application
